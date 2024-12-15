@@ -81,7 +81,7 @@ def main():
     
     # Carregar arquivo oficial (OuroFino.gpx)
     try:
-        with open("OuroFino.gpx", "r") as gpx_file:
+        with open("Boi.gpx", "r") as gpx_file:
             gpx1_file = gpx_file.read()
     except FileNotFoundError:
         st.error("O arquivo 'OuroFino.gpx' não foi encontrado no diretório.")
